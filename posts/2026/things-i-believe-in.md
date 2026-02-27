@@ -1,0 +1,9 @@
+These are the principles I return to when decisions get hard:
+
+1. Clarity beats complexity.
+2. Reproducibility is non-negotiable.
+3. Fast feedback loops compound over time.
+4. Good research must survive contact with implementation.
+5. Public work creates accountability and better outcomes.
+
+I treat these as operating rules, not slogans.
