@@ -1,6 +1,6 @@
 # Markus Baumann
 
-Personal website and blog about software, products, and ideas I am building.
+Personal website and blog about software, products, and ideas I'm building.
 
 ## Navigation
 
