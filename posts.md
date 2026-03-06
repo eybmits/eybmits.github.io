@@ -3,6 +3,7 @@
 ## 2026
 
 - Feb 20: [Principles](/posts/2026/things-i-believe-in.md)
+- Mar 6: [Every Solution Starts With a Guess](/posts/2026/every-solution-starts-with-a-guess.md)
 - Mar 6: [Longevity Logbook](/posts/2026/longevity-logbook.md)
 - Mar 6: [Building a Brainfog Decision Tree MVP](/posts/2026/brainfog-decision-tree-mvp.md)
 - Feb 16: [Current Stack and Workflow](/posts/2026/current-stack-and-workflow.md)

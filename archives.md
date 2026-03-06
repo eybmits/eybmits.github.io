@@ -1,10 +1,10 @@
 # Archives
 
-Total posts: 6
+Total posts: 7
 
 ## Posts by Year
 
-- [2026](/posts.md#2026) (6 posts)
+- [2026](/posts.md#2026) (7 posts)
 
 ---
 
