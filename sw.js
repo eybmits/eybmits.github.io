@@ -23,8 +23,8 @@ self.addEventListener("activate", (event) => {
           }
 
           return Promise.resolve();
-        }),
+        })
       );
-    })(),
+    })()
   );
 });
