@@ -1,17 +1,21 @@
-I wanted a better answer to a messy question:
+Brain fog is one of those terms that feels instantly familiar and strangely slippery at the same time.
 
-What do people with brain fog actually talk about when they compare notes in the wild?
+Most people know what it points to. But once people start describing it, they often mean very different things: mental slowness, poor recall, word-finding trouble, dissociation, fatigue, pressure behind the eyes, executive dysfunction, or the feeling that the brain never fully “switches on.”
 
-So I built a collection pipeline around Reddit, pulled the last five years of `brainfog` and `brain fog` discussions, added the full `r/BrainFog` subreddit for the same period, deduplicated the threads, and then ran a structured analysis over the full dataset.
+That ambiguity is what made the Reddit question interesting to me:
+
+What keeps showing up when people with brain fog compare notes in the wild?
+
+So I built a Reddit collection pipeline, pulled the last five years of `brainfog` and `brain fog` discussions, added the full `r/BrainFog` subreddit over the same period, deduplicated the threads, and ran a structured analysis across the full dataset.
 
 The final working set included:
 
 - `2,073` threads
-- `151,767` collected comments
+- `151,767` comments
 - `466` subreddits
 - coverage from `2021-03-14` to `2026-03-07`
 
-The goal was not to prove what medically works. Reddit cannot do that. The goal was to understand the structure of the conversation:
+The goal was not to prove what medically works. Reddit cannot do that. The goal was something narrower, and in its own way more useful: to map the structure of the conversation.
 
 - what gets mentioned most
 - what gets described positively
@@ -19,19 +23,21 @@ The goal was not to prove what medically works. Reddit cannot do that. The goal 
 - what low-visibility ideas look better than expected
 - what patterns point toward deeper root-cause subtypes
 
-Methodologically, the rankings below are based on thread-level evidence rather than raw comment spam. Positive mentions add to a score, negative mentions subtract from it, and mixed mentions count as partial support. That keeps one giant thread from dominating everything.
+Methodologically, the rankings below are based on thread-level evidence rather than raw comment volume. Positive mentions add to a score, negative mentions subtract from it, and mixed mentions count as partial support. That keeps one giant thread from distorting the rest of the dataset.
 
-> Important caveat: this is community self-report, not clinical proof. It is best used as a map of recurring hypotheses, not as a treatment guideline.
+> Important caveat: this is community self-report, not clinical evidence. Read it as a map of recurring hypotheses, experiences, and intervention patterns, not as a treatment guide.
 
 ## The short version
 
-Before getting into the charts, here is the highest-level picture.
+Once you zoom out, the conversation becomes much more structured than it first appears.
 
-First, brain fog does **not** behave like one single thing. The discussion keeps separating into subtypes: sleep-disruption stories, deficiency stories, histamine and allergy stories, hormone stories, stimulant and ADHD-adjacent stories, gut and diet stories, and energy-envelope or post-exertional stories.
+It is not just a cloud of random desperation posts. And it is not dominated mainly by fringe biohacking. Across five years and more than `150,000` comments, the same themes keep resurfacing: sleep, nutrient status, movement, hydration, stress regulation, diet, stimulants, antihistamines, hormones, breathing, and pacing.
 
-Second, the strongest signals are often less glamorous than people expect. Sleep, therapy, hydration, basic movement, magnesium, B12, iron, and nutrition changes show up over and over.
+A second pattern is just as striking: the strongest signals are often less glamorous than people expect. Sleep hygiene, therapy, hydration, walking, magnesium, `B12`, iron, and basic nutrition changes show up over and over again. The center of gravity is much closer to regulation and correction than to miracle hacks.
 
-Third, there are also more surprising patterns. Antihistamines, CPAP or BiPAP, hormone replacement protocols, L-theanine, and a few less-discussed interventions show stronger community signals than their visibility would suggest.
+Then there is a third layer: some lower-visibility ideas appear stronger than their level of attention would suggest. Antihistamines, `CPAP / BiPAP`, `L-theanine`, hormone-related interventions, and a handful of quieter strategies stand out more than their visibility would predict.
+
+This does not make them proven. It makes them interesting.
 
 ## 1. What gets mentioned most?
 
@@ -61,12 +67,7 @@ This is a good place to notice something subtle: the best overall signals are no
 
 ## 3. Which interventions look promising, and which look divisive?
 
-<figure>
-  <img src="/images/posts/brainfog-reddit-analysis/03_support_vs_negative_tradeoff.png" alt="Scatter plot showing interventions by the share of positive reports and the share of negative reports, highlighting a focus zone with low downside and high positivity." />
-  <figcaption>Left means fewer negative reports. Higher means more positive reports. The numbered focus zone highlights the cleanest signals.</figcaption>
-</figure>
-
-This is the chart I would use first if someone asked for the single best overview.
+The hero chart above is the single best overview in the entire post.
 
 The x-axis shows the share of mentioning threads that describe an intervention negatively. The y-axis shows the share of mentioning threads that describe it positively. So the most attractive region is the upper left: more positive reports, fewer negative ones.
 
@@ -84,6 +85,8 @@ That focus zone is where several clean signals cluster:
 10. `Zinc`
 
 The chart also shows why some medications need a more careful reading. `Vyvanse`, `Ritalin / Methylphenidate`, `Adderall`, and `Bupropion / Wellbutrin` can sit fairly high on positive reports while also drifting rightward into a more divisive zone. In plain English: they can help, but they also generate more downside reports and more disagreement.
+
+Some interventions look broadly clean. Others look powerful but unstable.
 
 ## 4. Which supplements lead the pack?
 
@@ -200,17 +203,20 @@ That is the strongest high-level pattern in the entire project.
 
 ## So what did this project actually change for me?
 
-The most important takeaway is that “brain fog” is too broad a label to be useful on its own. The data looks much more coherent once you stop treating it as one condition and start treating it as a cluster of partially overlapping syndromes.
+The biggest shift was not finding a silver bullet. It was losing the expectation that there should be one.
 
-If I had to compress the whole analysis into a few lines, it would be this:
+Once you stop looking for *the* answer to brain fog, the dataset becomes much easier to read. Some interventions dominate attention. Some keep attracting positive reports. Some are clearly polarizing. Some low-visibility ideas look stronger than expected. And the overall conversation is much more structured than it first appears.
 
-- the basics matter more than people want them to
-- medication signals can be real but often come with more controversy
-- some low-visibility ideas are more interesting than they look
-- the best explanations are often subtype explanations, not universal explanations
+That, to me, is the real value of the project.
 
-In other words, the Reddit conversation points less toward one silver bullet and more toward a structured search problem:
+It does not tell us what is clinically true. It does not tell us which intervention will work for any one person. And it certainly does not settle the biology.
 
-Which subtype am I looking at, and what does that subtype respond to?
+But it does show how people are collectively making sense of brain fog at scale. And that turns out to be surprisingly informative.
 
-That is a much more actionable question.
+If five years of Reddit discussion suggest anything, it is this: brain fog does not look like one uniform problem with one uniform answer. It looks more like a label people use for a cluster of overlapping cognitive and physiological failure modes that can arrive through very different routes.
+
+Not: what is the one cause of brain fog?
+
+Something harder, and probably more useful:
+
+What if brain fog is not one thing at all, but a genuinely multifactorial pattern that different people reach through different combinations of sleep disruption, deficiency, inflammation, hormones, diet, stress, medication effects, autonomic dysfunction, and post-exertional collapse?
