@@ -16,7 +16,7 @@ Markus Baumann is a researcher at LMU Munich / QAR-Lab working on Quantum Reserv
 - GitHub: [eybmits](https://github.com/eybmits)
 - LMU profile: [Markus Baumann](https://www.ifi.lmu.de/mvs/en/team/contact-page/contact-page_9536.html)
 - QAR-Lab: [Quantum Applications and Research Laboratory](https://qarlab.de/en/)
-- arXiv: [Markus Baumann author search](https://arxiv.org/search/?query=Markus+Baumann&searchtype=author)
+- Google Scholar: [Markus Baumann profile](https://scholar.google.com/citations?hl=en&user=gjjgrw0AAAAJ)
 - Email: hello@eybmits.dev
 
 ---
