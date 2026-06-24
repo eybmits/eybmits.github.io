@@ -1,6 +1,6 @@
 # Markus Baumann
 
-Markus Baumann is a researcher at LMU Munich / QAR-Lab working on Quantum Reservoir Computing, Quantum Machine Learning, time-series forecasting, and reproducible research software.
+Markus Baumann is a researcher at LMU Munich / QAR-Lab working on Quantum Reservoir Computing, Quantum Machine Learning, and time-series forecasting, with public artifacts for reproducible and inspectable computational research.
 
 [Principles I believe in.](/posts/2026/things-i-believe-in)
 
