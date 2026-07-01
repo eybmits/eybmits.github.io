@@ -21,8 +21,8 @@ The interaction model is intentionally narrow:
 
 Two links if you want to inspect it:
 
-- [Live demo](https://eybmits.github.io/brainfog-decision-tree/)
-- [GitHub repository](https://github.com/eybmits/brainfog-decision-tree)
+- [Live demo](https://eybmits.github.io/cognitive-decision-tree/)
+- [GitHub repository](https://github.com/eybmits/cognitive-decision-tree)
 
 This is still an MVP, not a medical tool. The point was to test the visual structure, the state flow, and whether the interface can make a small intervention tree feel more legible and more alive than a standard questionnaire.
 
