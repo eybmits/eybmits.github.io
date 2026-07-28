@@ -2,8 +2,8 @@
 
 ## 2026
 
-- Mar 7: [Five Years of Brain Fog on Reddit: What 2,073 Threads and 151,767 Comments Reveal](/posts/2026/what-2073-reddit-brain-fog-threads-reveal.md)
 - Feb 20: [Principles](/posts/2026/things-i-believe-in.md)
+- Mar 7: [Five Years of Brain Fog on Reddit: What 2,073 Threads and 151,767 Comments Reveal](/posts/2026/what-2073-reddit-brain-fog-threads-reveal.md)
 - Mar 6: [Every Solution Starts With a Guess](/posts/2026/every-solution-starts-with-a-guess.md)
 - Mar 6: [Longevity Logbook](/posts/2026/longevity-logbook.md)
 - Mar 6: [Building a Brainfog Decision Tree MVP](/posts/2026/brainfog-decision-tree-mvp.md)

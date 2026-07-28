@@ -1,4 +1,4 @@
-Last updated: 2026.03.06
+Last updated: 2026.07.28
 
 A cursed fact of the world is that the most important life lessons you learn are the hardest to communicate to others. They always sound like cliches.
 
@@ -85,3 +85,6 @@ In any case, these are a few things I've learned from experience and that I try 
 29. **Everything around me was someone's lifework.**
 
 30. **Have the arrogance of belief: if nobody has a solution, believe that you can put all the pieces together.**
+
+31. **Rewrite the question.**\
+    **Do not merely search for a better answer. Check whether you are answering the right question.**
